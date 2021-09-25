@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>CoppercupMenu</title>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="font/flaticon.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css"> 
+
+<link href="https://fonts.googleapis.com/css?family=El Messiri&display=swap" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet"></link>
+
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+<script type="text/javascript" src="java.js"></script>  
+
+
+<body dir="rtl">
+
+<div class="mobile-container ">
+
+
+<!-- need ta3dell in css -->
+    <div class="header1">
+
+        <div class="row no-gutters">
+            <div class="col-3 scal3">
+                           <picture >
+                        
+    <img src="images/logo.png" alt="" class="header1">
+</picture>
+            </div>
+        
+        </div><!--close row-->
+    </div><!--close card-->
+
+
+
+ <!--Navigation-->
+
+
+
+<div class="singleinfos">
+  <div class="row container-fluid ">
+    <div class="singleinfostabs ">
+
+<ul class="nav nav-pills red mb-3 mobile-container example navv" id="pills-tab" role="tablist">
+
+
+
+  <li class="nav-item home ">
+    <a class=" nav-link active " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><picture>
+ <source srcset="images/drip/Tdrip.webp" type="image/webp">
+  <source srcset="images/drip/Tdrip.jp2" type="image/jp2"> 
+  <img src="images/drip/Tdrip.jpg" alt="" id="tit" class="img-fluid lazy" alt="" loading="lazy" >
+</picture> <br>قهوة مقطرة </a></li>
+
+
+  <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-hotCoffee" role="tab" aria-controls="pills-contact" aria-selected="false"> <picture >
+  <source srcset="images/hot/thot.webp" type="image/webp">
+  <source srcset="images/hot/thot.jp2" type="image/jp2"> 
+  <img src="images/drip/thot.jpg" alt="" id="tit" class="img-fluid lazy" alt="" loading="lazy" >
+</picture><br>مشروبات ساخنة </a></li>
+  </li>
+
+
+
+  <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-IceCoffee" role="tab" aria-controls="pills-contact" aria-selected="false"><picture>
+  <img src="images/ice/Tice.jpg" alt="" id="tit" class="img-fluid lazy" alt="" loading="lazy" >
+</picture><br>مشروبات باردة </a></li>
+  </li>
+
+ <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-sweet" role="tab" aria-controls="pills-contact" aria-selected="false"><picture>
+  <source srcset="images/cold/Tcold.webp" type="image/webp">
+  <source srcset="images/cold/Tcold.jp2" type="image/jp2"> 
+  <img src="images/cold/Tcold.jpg" alt="" id="tit" class="img-fluid lazy" alt="" loading="lazy" >
+</picture><br>موهيتو/ مخلوط </a></li>
+  </li>
+
+
+ <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-coc" role="tab" aria-controls="pills-contact" aria-selected="false"><picture>
+  <source srcset="images/ches/Tches.webp" type="image/webp">
+  <source srcset="images/ches/Tches.jp2" type="image/jp2"> 
+  <img src="images/ches/Tches.jpg" alt="" id="tit" class="img-fluid lazy" alt="" loading="lazy" >
+</picture><br>الحلا</a></li>
+  </li>
+
+
+  <li class="nav-item">
+   <a class="nav-link start " id="pills-contact-tab" data-toggle="pill" href="#pills-bar" role="tab" aria-controls="pills-contact" aria-selected="false">
+      <picture>
+  <img src="images/fat/Tco.jpg" alt="" id="tit" class="img-fluid lazy" alt="" loading="lazy" >
+</picture><br>المعجنات </a></li>
+  </li>
+
+
+</ul>
+
+</div></div></div>
+
+
+
+<br>
+
+ 
+
+<!--start content-->
+<div class="tab-content" id="pills-tabContent">
+
+
+ <!--start drip--> 
+
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+<div class="container" >
+
+   <h5 class="card-tit2">قهوة مقطرة</h5><br>
+  <div class="card" onclick="gofor(this.id)" id="kin">
+
+        <div class="row no-gutters">
+            <div class="col-3 scal3">
+          	               <picture >
+ <source srcset="images/drip/kim.webp" type="image/webp">
+  <source srcset="images/drip/kim.jp2" type="image/jp2"> 
+  <img src="images/drip/kim.jpg" alt=""class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كيميكس اوغندي | Ugandan Chemex</h5>
+
+                   <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>42</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div> 
+
+
+             </div><!--close block-->
+            </div><!--close col-->
+        </div><!--close row-->
+
+    </div><!--close card-->
+
+  <br>
+
+ <div class="card " id="km" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture >
+ <source srcset="images/drip/kim.webp" type="image/webp">
+  <source srcset="images/drip/kim.jp2" type="image/jp2"> 
+  <img src="images/drip/kim.jpg" alt=""class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كيميكس اثيوبي | Ethiopian Chemex</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>42</p> <p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+
+
+    <div class="card "  id="vi" onclick="gofor(this.id)">
+
+        <div class="row no-gutters">
+           <div class="col-3  scal3 ">
+                              <picture >
+ <source srcset="images/drip/v60.webp" type="image/webp">
+  <source srcset="images/drip/v60.jp2" type="image/jp2"> 
+  <img src="images/drip/v60.jpg" alt=""class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                   <h5 class="card-title"> V60 اوغندي | Ugandan </h5>
+                    
+
+                    <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>42</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div><!--close block-->
+            </div><!--close col-->
+        </div><!--close row-->
+
+    </div><!--close card-->
+
+   <br>
+    <div class="card "  id="vi2" onclick="gofor(this.id)">
+
+        <div class="row no-gutters">
+           <div class="col-3  scal3 ">
+                                      <picture >
+ <source srcset="images/drip/v60.webp" type="image/webp">
+  <source srcset="images/drip/v60.jp2" type="image/jp2"> 
+  <img src="images/drip/v60.jpg" alt=""class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                   <h5 class="card-title"> V60 اثيوبي | Ethiopian </h5>
+                    
+
+                    <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>42</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div><!--close block-->
+            </div><!--close col-->
+        </div><!--close row-->
+
+    </div><!--close card-->
+
+   <br>
+
+</div> <!--close container-->
+
+
+
+</div><!-- end last pill-->
+
+
+
+
+
+ <!--start Hot--> 
+
+  <div class="tab-pane fade" id="pills-hotCoffee" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+
+<div class="container">
+
+   <h5 class="card-tit2">مشروبات ساخنة</h5>
+   <br>
+
+ <div class="card " id="la" onclick="gofor(this.id)">
+        <div class="row no-gutters ">
+
+            <div class="col-3 scal2 ">
+                                  <picture >
+  <source srcset="images/hot/lat.webp" type="image/webp">
+  <source srcset="images/hot/lat.jp2" type="image/jp2"> 
+  <img src="images/hot/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col ">
+                <div class="card-block px-3 ">
+                    <h5 class="card-title">لاتيه | Latte</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>21</p><p class ="right" >SR</p>
+                     <p class="alignright">13.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card " id="la2" onclick="gofor(this.id)">
+        <div class="row no-gutters ">
+
+            <div class="col-3 scal2 ">
+                                  <picture >
+  <source srcset="images/hot/lat.webp" type="image/webp">
+  <source srcset="images/hot/lat.jp2" type="image/jp2"> 
+  <img src="images/hot/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col ">
+                <div class="card-block px-3 ">
+                    <h5 class="card-title">سبانيش لاتيه | Spanish Latte</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>153</p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+<div class="card "  id="ko"  onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3  scal3">
+        <picture>
+           <source srcset="images/hot/kor.webp" type="image/webp">
+  <source srcset="images/hot/kor.jp2" type="image/jp2"> 
+  <img src="images/hot/kor.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">فلات وايت | Flat White</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>144</p><p class ="right" >SR</p>
+                     <p class="alignright">12.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+ <div class="card " id="ko2" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3 scal3">
+         <picture>
+  <source srcset="images/hot/kor.webp" type="image/webp">
+  <source srcset="images/hot/kor.jp2" type="image/jp2"> 
+  <img src="images/hot/kor.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كورتادو | Cortado</h5>  
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>156</p><p class ="right" >SR</p>
+                     <p class="alignright">11.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+
+  </br>
+
+
+     <div class="card " id="la3" onclick="gofor(this.id)">
+        <div class="row no-gutters ">
+
+            <div class="col-3 scal2 ">
+                                  <picture >
+  <source srcset="images/hot/lat.webp" type="image/webp">
+  <source srcset="images/hot/lat.jp2" type="image/jp2"> 
+  <img src="images/hot/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col ">
+                <div class="card-block px-3 ">
+                    <h5 class="card-title">كابتشينو | Cappuccino</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>137</p><p class ="right" >SR</p>
+                     <p class="alignright">13.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+    <div class="card " id="hch" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+                      <picture>
+  <source srcset="images/hot/cho.webp" type="image/webp">
+  <source srcset="images/hot/cho.jp2" type="image/jp2"> 
+  <img src="images/hot/cho.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">قهوة ايطالية | Italian Coffee</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>80</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+<br>
+
+
+
+ <div class="card " id="fl" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3 ">
+          <picture>
+  <img src="images/hot/tr.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+                
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">قهوة تركية | Turkish Coffee</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>20</p><p class ="right" >SR</p>
+                     <p class="alignright">8.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+
+    <br>
+
+
+ <div class="card " id="fr" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+                  <picture>
+  <source srcset="images/hot/fr.webp" type="image/webp">
+  <source srcset="images/hot/fr.jp2" type="image/jp2"> 
+  <img src="images/hot/fr.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">قهوة فرنسية | French Coffee</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>75</p><p class ="right" >SR</p>
+                     <p class="alignright">10.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+
+    <br>
+
+
+
+     <div class="card " id="la4" onclick="gofor(this.id)">
+        <div class="row no-gutters ">
+
+            <div class="col-3 scal2 ">
+                                  <picture >
+  <source srcset="images/hot/lat.webp" type="image/webp">
+  <source srcset="images/hot/lat.jp2" type="image/jp2"> 
+  <img src="images/hot/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col ">
+                <div class="card-block px-3 ">
+                    <h5 class="card-title">كراميل مكياتو | Caramel Macchiato</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>360</p><p class ="right" >SR</p>
+                     <p class="alignright">16.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+     <div class="card " id="la5" onclick="gofor(this.id)">
+        <div class="row no-gutters ">
+
+            <div class="col-3 scal2 ">
+                                  <picture >
+  <source srcset="images/hot/lat.webp" type="image/webp">
+  <source srcset="images/hot/lat.jp2" type="image/jp2"> 
+  <img src="images/hot/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+          
+            </div>
+
+            <div class="col ">
+                <div class="card-block px-3 ">
+                    <h5 class="card-title">بندق لاتيه | Hazelnut latte</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>138</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card "  id="am" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+            <picture>
+
+  <img src="images/hot/am.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+               
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">امريكانو | Americano</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>21</p><p class ="right" >SR</p>
+                     <p class="alignright">9.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card " id="ym" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3 ">
+               	    <picture>
+
+  <img src="images/hot/am.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">قهوة اليوم | c.o.d</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>140</p><p class ="right" >SR</p>
+                     <p class="alignright">8.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+
+
+ <div class="card " id="es"  onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+            <picture>
+  <img src="images/hot/esp.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+               
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">اسبريسو | Espresso</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>51</p><p class ="right" >SR</p>
+                     <p class="alignright">9.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card " id="hch2"   onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+            <picture>
+   <source srcset="images/hot/cho.webp" type="image/webp">
+  <source srcset="images/hot/cho.jp2" type="image/jp2"> 
+  <img src="images/hot/cho.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+               
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">شوكلاتة ساخنة | Hot Chocolate</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+ <div class="card " id="sp" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3  scal3">
+               <picture>
+  <source srcset="images/hot/arb.webp" type="image/webp">
+  <source srcset="images/hot/arb.jp2" type="image/jp2"> 
+  <img src="images/hot/arb.jpg" alt=""class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">قهوة عربية | Arabic coffee</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">20.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+   <br>
+
+
+ <div class="card " onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+            <picture>
+   <source srcset="images/hot/ta.webp" type="image/webp">
+  <source srcset="images/hot/ta.jp2" type="image/jp2"> 
+  <img src="images/hot/ta.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+               
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">شاهي كوب | Tea Cup</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>100</p><p class ="right" >SR</p>
+                     <p class="alignright">3.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+     <div class="card " onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+            <picture>
+   <source srcset="images/hot/ta.webp" type="image/webp">
+  <source srcset="images/hot/ta.jp2" type="image/jp2"> 
+  <img src="images/hot/ta.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+               
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">شاهي ابريق | Tea Jug</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>100</p><p class ="right" >SR</p>
+                     <p class="alignright">9.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+</div> <!--close container-->
+
+  </div><!-- end pill-->
+
+
+
+
+
+ <!--start Ice--> 
+
+<div class="tab-pane fade" id="pills-IceCoffee" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+  <h5 class="card-tit2">مشروبات باردة</h5><br>
+
+ <div class="card " id="cdr" onclick="gofor(this.id)">
+
+           <div class="row no-gutters ">
+
+            <div class="col-3">
+            		    <picture>
+    <source srcset="images/ice/lat.webp" type="image/webp">
+  <source srcset="images/ice/lat.jp2" type="image/jp2">                    
+  <img src="images/ice/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+                
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس لاتيه | Ice Latte</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>21</p><p class ="right" >SR</p>
+                     <p class="alignright">12.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+    <div class="card " id="cdr2" onclick="gofor(this.id)">
+
+           <div class="row no-gutters ">
+
+            <div class="col-3">
+                    <picture>
+    <source srcset="images/ice/lat.webp" type="image/webp">
+  <source srcset="images/ice/lat.jp2" type="image/jp2">                    
+  <img src="images/ice/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+                
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس فانيلا لاتيه | Ice Vanilla Latte</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>141</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card " id="cmo" onclick="gofor(this.id)">
+
+        <div class="row no-gutters " >
+
+            <div class="col-3" >
+       <picture>
+  <source srcset="images/ice/cho.webp" type="image/webp">
+  <source srcset="images/ice/cho.jp2" type="image/jp2"> 
+  <img src="images/ice/cho.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+             
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">موكا بارد | Cold mocha</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+        <br>
+
+ <div class="card " id="cmo2" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3" >
+            <picture>
+  <source srcset="images/ice/cho.webp" type="image/webp">
+  <source srcset="images/ice/cho.jp2" type="image/jp2"> 
+  <img src="images/ice/cho.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">شوكلاته بارد | Cold Chocolate</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+        <br>
+
+    <div class="card " id="cdr3" onclick="gofor(this.id)">
+
+           <div class="row no-gutters ">
+
+            <div class="col-3">
+                    <picture>
+    <source srcset="images/ice/lat.webp" type="image/webp">
+  <source srcset="images/ice/lat.jp2" type="image/jp2">                    
+  <img src="images/ice/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+                
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس وايت موكا | Ice White Mocha</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+    <div class="card " id="cdr4" onclick="gofor(this.id)">
+
+           <div class="row no-gutters ">
+
+            <div class="col-3">
+                    <picture>
+    <source srcset="images/ice/lat.webp" type="image/webp">
+  <source srcset="images/ice/lat.jp2" type="image/jp2">                    
+  <img src="images/ice/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+                
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس بندق لاتيه | Ice Hazelnut Latte</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>260</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+    <div class="card " id="cdr5" onclick="gofor(this.id)">
+
+           <div class="row no-gutters ">
+
+            <div class="col-3">
+                    <picture>
+    <source srcset="images/ice/lat.webp" type="image/webp">
+  <source srcset="images/ice/lat.jp2" type="image/jp2">                    
+  <img src="images/ice/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+                
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس سبانيش لاتيه | Ice Spanish Latte</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>202</p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card " id="cam" onclick="gofor(this.id)">
+
+          <div class="row no-gutters">
+
+            <div class="col-3">
+          <picture>
+ <source srcset="images/drip/v60.webp" type="image/webp">
+  <source srcset="images/drip/v60.jp2" type="image/jp2"> 
+  <img src="images/drip/v60.jpg" alt=""class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+            
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس دريب | Ice Drip</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>139</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+     <div class="card "  id="cam2" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+             <picture>
+
+  <img src="images/ice/am.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس امريكانو | Ice American</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>161</p><p class ="right" >SR</p>
+                     <p class="alignright">10.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+        <br>
+
+    <div class="card " id="cdr6" onclick="gofor(this.id)">
+
+           <div class="row no-gutters ">
+
+            <div class="col-3">
+                    <picture>
+    <source srcset="images/ice/lat.webp" type="image/webp">
+  <source srcset="images/ice/lat.jp2" type="image/jp2">                    
+  <img src="images/ice/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+                
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس كراميل ميكاتو | Ice Caramel Macchiato</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>240</p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+ <div class="card "  id="cdr7" onclick="gofor(this.id)">
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+            	    <picture>
+    <source srcset="images/ice/lat.webp" type="image/webp">
+  <source srcset="images/ice/lat.jp2" type="image/jp2">                    
+  <img src="images/ice/lat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ايس كورتادو | Ice Cortado</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>156</p><p class ="right" >SR</p>
+                     <p class="alignright">12.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+        <br>
+
+
+</div> <!--close container-->
+
+</div><!-- end pill-->
+
+ <!--start cold--> 
+<div class="tab-pane fade" id="pills-sweet" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+
+<div class="container">
+  <h5 class="card-tit2">موهيتو/ مخلوط</h5>
+   <br>
+ <div class="card " id="mo" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+           <picture>
+  <source srcset="images/cold/blu.webp" type="image/webp">
+  <source srcset="images/cold/blu.jp2" type="image/jp2"> 
+  <img src="images/cold/blu.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">سي بلو | Sea Blue</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright"></i>15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo2" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+            	 <picture>
+  <source srcset="images/cold/red.webp" type="image/webp">
+  <source srcset="images/cold/red.jp2" type="image/jp2"> 
+  <img src="images/cold/red.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">فراولة | Strawberry</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>220</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo3" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/org.webp" type="image/webp">
+  <source srcset="images/cold/org.jp2" type="image/jp2"> 
+  <img src="images/cold/org.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">اناناس | Pineapple</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>150</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+ 
+ <div class="card " id="mo4" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/red.webp" type="image/webp">
+  <source srcset="images/cold/red.jp2" type="image/jp2"> 
+  <img src="images/cold/red.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كرز | Cherry</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo5" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/org.webp" type="image/webp">
+  <source srcset="images/cold/org.jp2" type="image/jp2"> 
+  <img src="images/cold/org.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">خوخ | Peache</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>195</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo6" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/grn.webp" type="image/webp">
+  <source srcset="images/cold/grn.jp2" type="image/jp2"> 
+  <img src="images/cold/grn.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">تفاح | Apple</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo7" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/red.webp" type="image/webp">
+  <source srcset="images/cold/red.jp2" type="image/jp2"> 
+  <img src="images/cold/red.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">رمان | Pomegranate</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>185</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo8" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/blu.webp" type="image/webp">
+  <source srcset="images/cold/blu.jp2" type="image/jp2"> 
+  <img src="images/cold/blu.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">توت ازرق | Blueberry</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>195</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mored" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/red.webp" type="image/webp">
+  <source srcset="images/cold/red.jp2" type="image/jp2"> 
+  <img src="images/cold/red.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">توت أحمر | Red Mulberry</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo10" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/red.webp" type="image/webp">
+  <source srcset="images/cold/red.jp2" type="image/jp2"> 
+  <img src="images/cold/red.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">جح | Watermelon</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>210</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo11" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/blu.webp" type="image/webp">
+  <source srcset="images/cold/blu.jp2" type="image/jp2"> 
+  <img src="images/cold/blu.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">قشور برتقال | orange peels</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+
+ <div class="card " id="mo12" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/org.webp" type="image/webp">
+  <source srcset="images/cold/org.jp2" type="image/jp2"> 
+  <img src="images/cold/org.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">باشن | Passion</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>180</p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo13" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/blk.webp" type="image/webp">
+  <source srcset="images/cold/blk.jp2" type="image/jp2"> 
+  <img src="images/cold/blk.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">بلاك تايقر سمر | BlackTiger Summer</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>250</p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+ <div class="card " id="mo14" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/blk.webp" type="image/webp">
+  <source srcset="images/cold/blk.jp2" type="image/jp2"> 
+  <img src="images/cold/blk.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">سجنيتشر بلاك تايقر | Signature BlackTiger</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+
+ <div class="card " id="mo15" onclick="gofor(this.id)">
+       <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/cold/grn.webp" type="image/webp">
+  <source srcset="images/cold/grn.jp2" type="image/jp2"> 
+  <img src="images/cold/grn.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+   
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">مكس | Mix</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>250</p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+  <br>
+
+
+
+</div> <!--close container-->
+
+
+</div><!-- end pill-->
+
+
+
+
+ <!--start cockis--> 
+<div class="tab-pane fade" id="pills-coc" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+  <h5 class="card-tit2">الحلا</h5> 
+   <br>
+ <div class="card " id="swt1" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+         <picture>
+  <source srcset="images/ches/ba.webp" type="image/webp">
+  <source srcset="images/ches/ba.jp2" type="image/jp2"> 
+  <img src="images/ches/ba.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كيكة بستاشيو | Pistachio Cake</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>514</p><p class ="right" >SR</p>
+                     <p class="alignright">10.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+
+       <br>
+
+ <div class="card " id="swt2" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+        <picture>
+  <source srcset="images/ches/cina.webp" type="image/webp">
+  <source srcset="images/ches/cina.jp2" type="image/jp2"> 
+  <img src="images/ches/cina.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+              
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كيكة سينابون | Cinnabon Cake</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>400</p><p class ="right" >SR</p>
+                     <p class="alignright">15.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+     <div class="card " id="swt3" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/bra.webp" type="image/webp">
+  <source srcset="images/ches/bra.jp2" type="image/jp2"> 
+  <img src="images/ches/bra.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">براونيز  | Brownies</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>420</p><p class ="right" >SR</p>
+                     <p class="alignright">11.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+ 
+
+     <div class="card " id="swt4" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/cho.webp" type="image/webp">
+  <source srcset="images/ches/cho.jp2" type="image/jp2"> 
+  <img src="images/ches/cho.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كيك شوكلاتة | Chocolate Cake</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">17.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+     <div class="card " id="swt5" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/coc.webp" type="image/webp">
+  <source srcset="images/ches/coc.jp2" type="image/jp2"> 
+  <img src="images/ches/coc.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كوكيز | Cookies</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>250</p><p class ="right" >SR</p>
+                     <p class="alignright">6.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+     <div class="card " id="swt6" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/tram.webp" type="image/webp">
+  <source srcset="images/ches/tram.jp2" type="image/jp2"> 
+  <img src="images/ches/tram.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">تراميسو | Tiramisu </h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">14.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>
+
+
+     <div class="card " id="swt7" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/tot.webp" type="image/webp">
+  <source srcset="images/ches/tot.jp2" type="image/jp2"> 
+  <img src="images/ches/tot.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">تشيز كيك توت | Blueberry Cheesecake</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">17.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>  
+
+     <div class="card " id="swt8" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/lot.webp" type="image/webp">
+  <source srcset="images/ches/lot.jp2" type="image/jp2"> 
+  <img src="images/ches/lot.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">تشيز كيك لوتس | Lotus Cheesecake</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">17.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>  
+
+         <div class="card " id="swt9" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/tram.webp" type="image/webp">
+  <source srcset="images/ches/tram.jp2" type="image/jp2"> 
+  <img src="images/ches/tram.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">ترافل كيندر | Travel Kinder</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">17.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>  
+
+
+         <div class="card " id="swt10" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/su.webp" type="image/webp">
+  <source srcset="images/ches/su.jp2" type="image/jp2"> 
+  <img src="images/ches/su.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">دونات سكر | Sugar Donut</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">6.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>  
+
+
+         <div class="card " id="swt11" onclick="gofor(this.id)">
+
+
+        <div class="row no-gutters ">
+
+            <div class="col-3">
+               <picture>
+  <source srcset="images/ches/za.webp" type="image/webp">
+  <source srcset="images/ches/za.jp2" type="image/jp2"> 
+  <img src="images/ches/za.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+        
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">دونات زعتر | Zaatar Donut</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">6.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row-->
+
+    </div> <!--close card-->
+
+    <br>  
+
+</div> <!--close container-->
+</div><!-- end pill-->
+
+
+
+ <!--start bar--> 
+
+<div class="tab-pane fade" id="pills-bar" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+ <h5 class="card-tit2">المعجنات</h5> <br>
+   
+ <div class="card " id="fat1" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+
+            <div class="col-3  ">
+            	      <picture>
+  <source srcset="images/fat/co.webp" type="image/webp">
+  <source srcset="images/fat/co.jp2" type="image/jp2"> 
+  <img src="images/fat/co.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+     
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كروسان سادة | Croissant</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>231</p><p class ="right" >SR</p>
+                     <p class="alignright">7.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row--> 
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card "  onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+
+            <div class="col-3 ">
+            <picture>
+  <source srcset="images/bar/me.webp" type="image/webp">
+  <source srcset="images/bar/me.jp2" type="image/jp2"> 
+  <img src="images/bar/me.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كلوب ساندوتش لحم | Meat club sandwich</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">8.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row--> 
+
+    </div> <!--close card-->
+
+    <br>
+
+ <div class="card " onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+
+            <div class="col-3">
+           <picture>
+  <source srcset="images/bar/fo.webp" type="image/webp">
+  <source srcset="images/bar/fo.jp2" type="image/jp2"> 
+  <img src="images/bar/fo.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy">
+</picture>
+              
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">كلوب ساندوتش دجاج | Chicken Club Sandwich</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i></p><p class ="right" >SR</p>
+                     <p class="alignright">8.00</p>
+                         </div>
+
+                </div> <!--close block-->
+
+            </div> <!--close col-->
+
+        </div><!--close row--> 
+ 
+
+    </div> <!--close card-->
+
+ 
+    <br>
+</div> <!--close container-->
+</div><!-- end pill-->
+
+
+
+</div><!-- end pillsssssss-->
+
+
+<!--Footer-->
+
+<footer>
+  <a href="https://www.instagram.com/semicolon.site/" style="text-decoration : none" ><p class="footer">مشغل بواسطة @سميكولن</p></a>
+</footer>
+
+ </div>
+</body>
+ </html>
+
