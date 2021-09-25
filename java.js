@@ -129,7 +129,12 @@ var val = "spp"
 localStorage.setItem("storageName",val);
 window.location.href = "deet.html";
  break;
-
+    
+case "ta":
+var val = "taa"
+localStorage.setItem("storageName",val);
+window.location.href = "deet.html";
+ break;
 /*cold*/
 
 case "cdr":
