@@ -393,14 +393,14 @@ window.location.href = "deet.html";
  break;
 
 case "fat2":
-var val = "fatt1"
+var val = "fatt2"
 localStorage.setItem("storageName",val);
 window.location.href = "deet.html";
  break;
 
     
 case "fat3":
-var val = "fatt1"
+var val = "fatt3"
 localStorage.setItem("storageName",val);
 window.location.href = "deet.html";
  break;
